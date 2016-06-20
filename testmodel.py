@@ -96,6 +96,6 @@ if __name__ == '__main__':
     predicted = model.predict(test_maxabs)
 
     # print(predicted)
-
+    # prints labels
     for num in predicted:
         print num
